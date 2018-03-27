@@ -42,7 +42,12 @@
 
 ### 5.如何使用svn
 
-
+#### 5.1 创建svn库主目录（多库模式，一份配置w恩建管理多个库）
+```shell
+    mkdir /svn/
+    cd /etc/httpd/conf.d
+    ls  # 其中有一个subversion.conf文件
+```
 
 
 
