@@ -159,7 +159,13 @@
     启动tomcat
     
     http://172.16.88.142:9000/svnadmin
+    第一次使用需要设置账号和密码root/root
 ```
+
+#### 6.4 使用管控台
+1. 创建一个库
+![](http://ojw4jti3h.bkt.clouddn.com/18-3-27/64586723.jpg)
+
 
 
 
