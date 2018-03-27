@@ -136,7 +136,7 @@
 ```
 安装jsvnadmin
 ```shell
-    # 上传svnadmin-3.0.5.zip
+    # 上传svnadmin-3.0.5.zip 到tomcat的webapps中
 ```
 
 
