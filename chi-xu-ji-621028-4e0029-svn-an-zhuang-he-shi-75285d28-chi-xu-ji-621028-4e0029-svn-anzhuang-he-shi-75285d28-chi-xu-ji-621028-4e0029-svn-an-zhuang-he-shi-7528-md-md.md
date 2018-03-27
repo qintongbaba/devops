@@ -79,7 +79,7 @@
     
 
 
-### 7.安装mysql
+#### 6.1.安装mysql
 ```shell
 1.检查mysql是否安装
 	rpm -qa | grep mysql
@@ -96,7 +96,7 @@
 	3)安装mysql
 	yum install mysql-community-server
 4.启动mysql服务
-	service mysql start
+	service mysqld start
 5.检查mysql
 	chkconfig --list | grep mysqld
 6.设置开启启动
