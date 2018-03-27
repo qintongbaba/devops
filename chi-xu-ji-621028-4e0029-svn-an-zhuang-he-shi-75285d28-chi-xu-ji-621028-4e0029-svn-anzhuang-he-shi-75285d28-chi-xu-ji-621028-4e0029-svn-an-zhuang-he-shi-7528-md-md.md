@@ -169,6 +169,15 @@
 2. 单击URL会提示认证失败
 ```
     1.设置用户组，将root用户添加到manager中
+    2.因为现在认证为apache
+    chown -R apache.apache edu # 将edu设置为apche用户组
+    chmod -R 777 edu
+    3.关闭SELinux（Linux访问控制）
+    修改/etc/selinux/config 文件
+    vi /etc/selinux/config
+    将SELINUX=enforcing修改为SELINUX=disabled
+    重启机器即可
+    reboot
 ```
 
 
