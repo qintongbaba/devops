@@ -141,8 +141,14 @@
     # 解压svnadmin.war 再删除svnadmin.war
     unzip svnadmin.war -d svnadmin
     # 修改配置文件
-    vi 
-    
+    vi svnadmin/WEB-INF/jdbc.properties
+    修改以下内容
+    db=MySQL
+    # MySQL
+    MySQL.jdbc.driver=com.mysql.jdbc.Driver
+    MySQL.jdbc.url=jdbc:mysql://127.0.0.1/svnadmin?characterEncoding=utf8
+    MySQL.jdbc.username=root
+    MySQL.jdbc.password=root
 ```
 
 
