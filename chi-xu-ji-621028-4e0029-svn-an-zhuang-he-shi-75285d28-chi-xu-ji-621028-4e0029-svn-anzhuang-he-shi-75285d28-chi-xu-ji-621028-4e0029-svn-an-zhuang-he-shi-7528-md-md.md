@@ -76,7 +76,8 @@
 
 ### 6.安装jsvnadmin
     java开发的svn管控台
-    #### 6.1.安装mysql
+    
+#### 6.1.安装mysql
 ```shell
 1.检查mysql是否安装
 	rpm -qa | grep mysql
