@@ -155,6 +155,10 @@
     # 创建svn对应的数据库
     # 创建一个数据库svnadmin
     导入svnadmin.zip的db中的mysql5.sql和lang/en.sql
+    
+    启动tomcat
+    
+    http://172.16.88.142:9000/svnadmin
 ```
 
 
