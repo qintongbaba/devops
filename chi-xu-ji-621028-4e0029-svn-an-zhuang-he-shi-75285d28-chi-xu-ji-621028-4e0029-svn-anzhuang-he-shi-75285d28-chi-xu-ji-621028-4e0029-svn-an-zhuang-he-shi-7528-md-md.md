@@ -115,6 +115,7 @@
 ```
 
 #### 6.2 安装jdk和tomcat
+安装jdk
 ```shell
     #1.解压
     tar -zxvf jdk-8u151-linux-x64.tar.gz
@@ -125,6 +126,13 @@
     export PATH=$PATH:$JAVA_HOME/bin
     source ~/.bash_profile
 ```
+安装tomcat
+```shell
+    # 修改tomcat端口为9000 和 添加编码为UTF-8
+    <Connector port="9000" ... URIEncoding="UTF-8"/>
+    
+```
+
 
 
 
