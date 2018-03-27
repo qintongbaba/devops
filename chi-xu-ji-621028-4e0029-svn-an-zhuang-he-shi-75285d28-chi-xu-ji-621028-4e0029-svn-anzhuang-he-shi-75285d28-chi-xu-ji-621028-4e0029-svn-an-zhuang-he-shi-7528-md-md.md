@@ -80,6 +80,7 @@
 
 
 ### 7.安装mysql
+```shell
 1.检查mysql是否安装
 	rpm -qa | grep mysql
 2.如果安装过，如果想卸载
@@ -113,7 +114,7 @@
 	mysql -uroot -proot
 	mysql>GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;
     mysql>FLUSH PRIVILEGES;
-    
+```
 
 
 
