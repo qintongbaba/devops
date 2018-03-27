@@ -80,13 +80,13 @@
 
 
 ### 7.安装mysql
-#### 1.检查mysql是否安装
-	`rpm -qa | grep mysql`
-#### 2.如果安装过，如果想卸载
+1.检查mysql是否安装
+	rpm -qa | grep mysql
+2.如果安装过，如果想卸载
 	yum remove mysql mysql-server mysqllibs mysql-common
 	rm -rf /var/lib/mysql
 	rm -rf /etc/my.conf
-#### 3.安装mysql
+3.安装mysql
 	#使用yum安装，在安装之前需要安装mysql的下载源。需要从oracle上下载
 	1)下载mysql源包
 	我们使用的是centOS6.4，对应的rpm包为:mysql-community-release-el6-5.noarch.rpm
@@ -94,21 +94,21 @@
 	yum localinstall mysql-community-release-el6-5.noarch.rpm
 	3)安装mysql
 	yum install mysql-community-server
-#### 4.启动mysql服务
+4.启动mysql服务
 	service mysql start
-#### 5.检查mysql
+5.检查mysql
 	chkconfig --list | grep mysqld
-#### 6.设置开启启动
+6.设置开启启动
 	chkconfig mysqld on
-#### 7.为了方便远程调用，需要打开防火墙
+7.为了方便远程调用，需要打开防火墙
     vi /etc/sysconfig/iptables
     #添加  打开3306
     -A INPUT -m state --state NEW -m tcp -p tcp --dport 3306 -j ACCEPT
     #重启防火墙
     service iptables restart
-#### 8.设置mysql的root密码
+8.设置mysql的root密码
 	mysqladmin -u root password 'root'
-#### 9.mysql授权远程访问
+9.mysql授权远程访问
 	# 登陆mysql
 	mysql -uroot -proot
 	mysql>GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;
