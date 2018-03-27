@@ -114,7 +114,7 @@
     mysql>FLUSH PRIVILEGES;
 ```
 
-#### 6.2 安装tomcat
+#### 6.2 安装jdk和tomcat
 
 
 
