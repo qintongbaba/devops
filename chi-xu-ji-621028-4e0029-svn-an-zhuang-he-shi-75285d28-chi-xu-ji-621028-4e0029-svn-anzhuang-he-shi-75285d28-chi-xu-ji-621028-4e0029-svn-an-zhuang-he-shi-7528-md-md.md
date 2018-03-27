@@ -69,6 +69,10 @@
     touch /svn/passwd.http
     touch /svn/authz
 ```
+重启apache
+```shell
+    service httpd restart
+```
 
 
 
