@@ -64,6 +64,11 @@
     </Location>
     RedirectMath ^(/svn)$ $1/
 ```
+创建两个文件
+```shell
+    touch /svn/passwd.http
+    touch /svn/authz
+```
 
 
 
