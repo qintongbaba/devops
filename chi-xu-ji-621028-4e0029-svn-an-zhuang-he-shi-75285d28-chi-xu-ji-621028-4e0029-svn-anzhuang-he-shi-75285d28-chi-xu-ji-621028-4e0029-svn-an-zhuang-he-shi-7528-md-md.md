@@ -49,7 +49,20 @@
     ls  # 其中有一个subversion.conf文件
     vi subversion.conf
     # 添加如下内容
-    
+```
+```conf
+    #Include /svn/httpd.conf
+    <Location /svn/>
+    DAV svn
+    SVNListParentPath on
+    SVNParentPath /svn
+    AuthType Basic
+    AuthName "Subversion repositories"
+    AuthUserFile /svn/passwd.http
+    AuthzSVNAccessFile /svn/authcz
+    Require valid-user
+    </Location>
+    RedirectMath ^(/svn)$ $1/
 ```
 
 
