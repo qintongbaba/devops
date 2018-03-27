@@ -74,6 +74,9 @@
     service httpd restart
 ```
 
+### 6.安装jsvnadmin
+
+
 
 
 
