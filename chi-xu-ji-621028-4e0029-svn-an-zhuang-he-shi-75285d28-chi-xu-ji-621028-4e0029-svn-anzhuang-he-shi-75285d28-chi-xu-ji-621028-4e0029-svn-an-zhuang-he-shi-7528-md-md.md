@@ -81,7 +81,7 @@
 
 ### 7.安装mysql
 #### 1.检查mysql是否安装
-	rpm -qa | grep mysql
+	`rpm -qa | grep mysql`
 #### 2.如果安装过，如果想卸载
 	yum remove mysql mysql-server mysqllibs mysql-common
 	rm -rf /var/lib/mysql
