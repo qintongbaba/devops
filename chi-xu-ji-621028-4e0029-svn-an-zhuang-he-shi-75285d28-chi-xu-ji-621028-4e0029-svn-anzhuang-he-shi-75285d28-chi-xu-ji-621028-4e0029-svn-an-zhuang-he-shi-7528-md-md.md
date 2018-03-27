@@ -149,6 +149,12 @@
     MySQL.jdbc.url=jdbc:mysql://127.0.0.1/svnadmin?characterEncoding=utf8
     MySQL.jdbc.username=root
     MySQL.jdbc.password=root
+    
+    
+    
+    # 创建svn对应的数据库
+    # 创建一个数据库svnadmin
+    导入svnadmin.zip的db中的mysql5.sql和lang/en.sql
 ```
 
 
