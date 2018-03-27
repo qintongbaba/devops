@@ -75,7 +75,8 @@
 ```
 
 ### 6.安装jsvnadmin
-下载地址[jsvnadmin]()
+    java开发的svn管控台
+    
 
 
 
