@@ -47,6 +47,9 @@
     mkdir /svn/
     cd /etc/httpd/conf.d
     ls  # 其中有一个subversion.conf文件
+    vi subversion.conf
+    # 添加如下内容
+    
 ```
 
 
