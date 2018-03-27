@@ -136,7 +136,13 @@
 ```
 安装jsvnadmin
 ```shell
-    # 上传svnadmin-3.0.5.zip 到tomcat的webapps中
+    # 上传svnadmin-3.0.5.zip 
+    # 解压后将svnadmin.war拷贝到webapps中
+    # 解压svnadmin.war 再删除svnadmin.war
+    unzip svnadmin.war -d svnadmin
+    # 修改配置文件
+    vi 
+    
 ```
 
 
