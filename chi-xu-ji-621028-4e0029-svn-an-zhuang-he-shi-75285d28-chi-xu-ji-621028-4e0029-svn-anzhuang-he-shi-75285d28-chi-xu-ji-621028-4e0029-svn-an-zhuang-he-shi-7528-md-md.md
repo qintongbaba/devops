@@ -131,6 +131,8 @@
     # 修改tomcat端口为9000 和 添加编码为UTF-8
     <Connector port="9000" ... URIEncoding="UTF-8"/>
     
+    
+    # 开启9000的防火墙
 ```
 
 
