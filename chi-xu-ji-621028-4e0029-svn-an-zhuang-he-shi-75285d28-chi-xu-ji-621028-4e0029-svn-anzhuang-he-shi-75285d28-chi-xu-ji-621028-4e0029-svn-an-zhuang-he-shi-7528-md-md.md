@@ -136,7 +136,7 @@
 ```
 安装jsvnadmin
 ```shell
-    # 上传
+    # 上传svnadmin-3.0.5.zip
 ```
 
 
