@@ -166,6 +166,11 @@
 1. 创建一个库
 ![](http://ojw4jti3h.bkt.clouddn.com/18-3-27/64586723.jpg)
 
+2. 单击URL会提示认证失败
+```
+    1.设置用户组，将root用户添加到manager中
+```
+
 
 
 
