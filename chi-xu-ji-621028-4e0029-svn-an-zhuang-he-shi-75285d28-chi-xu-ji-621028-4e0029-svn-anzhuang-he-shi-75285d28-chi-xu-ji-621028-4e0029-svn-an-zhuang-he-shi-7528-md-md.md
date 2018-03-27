@@ -59,7 +59,7 @@
     AuthType Basic
     AuthName "Subversion repositories"
     AuthUserFile /svn/passwd.http
-    AuthzSVNAccessFile /svn/authcz
+    AuthzSVNAccessFile /svn/authz
     Require valid-user
     </Location>
     RedirectMath ^(/svn)$ $1/
