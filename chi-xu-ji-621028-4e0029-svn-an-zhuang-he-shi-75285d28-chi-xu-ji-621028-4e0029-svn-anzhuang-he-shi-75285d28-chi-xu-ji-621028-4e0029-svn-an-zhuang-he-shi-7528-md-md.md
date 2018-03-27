@@ -115,6 +115,16 @@
 ```
 
 #### 6.2 安装jdk和tomcat
+```shell
+    #1.解压
+    tar -zxvf jdk-8u151-linux-x64.tar.gz
+    #2.配置环境变量
+    vi ~/.bash_profile
+    #输入
+    export JAVA_HOME=/root/soft/java_1.7
+    export PATH=$PATH:$JAVA_HOME/bin
+    source ~/.bash_profile
+```
 
 
 
