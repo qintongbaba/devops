@@ -62,7 +62,7 @@
     AuthzSVNAccessFile /svn/authz
     Require valid-user
     </Location>
-    RedirectMath ^(/svn)$ $1/
+    RedirectMatch ^(/svn)$ $1/
 ```
 创建两个文件
 ```shell
